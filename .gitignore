@@ -1,0 +1,14 @@
+# File VM
+*.vdi
+*.ova
+*.vmdk
+
+# Kredensial & rahasia
+*.pem
+*.key
+id_*
+.env
+
+# Hasil runtime
+logs/*.log
+*.tar.gz
