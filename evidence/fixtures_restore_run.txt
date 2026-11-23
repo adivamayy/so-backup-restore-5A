@@ -1,0 +1,12 @@
+[INFO]  membersihkan dan membuat /srv/so-backup/so-backup-restore-5A/data/fixtures_restore
+[INFO]  data dummy dibuat: 4 berkas
+[INFO]  arsip valid dibuat (283 byte)
+[INFO]  semua fixture diperiksa dan sesuai rancangan:
+        rusak_checksum_baru.tar.gz
+        rusak_checksum_baru.tar.gz.sha256
+        rusak_checksum_lama.tar.gz
+        rusak_checksum_lama.tar.gz.sha256
+        sumber
+        tanpa_checksum.tar.gz
+        valid.tar.gz
+        valid.tar.gz.sha256
