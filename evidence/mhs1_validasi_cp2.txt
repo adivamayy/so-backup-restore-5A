@@ -1,0 +1,20 @@
+== (+) sumber valid, harapan exit 0
+$ scripts/validate_input.sh /tmp/tmp.Dmonj4sJly/ada_isi
+OK: sumber valid (/tmp/tmp.Dmonj4sJly/ada_isi)
+exit: 0
+
+== (-) sumber tidak ada, harapan exit 2
+$ scripts/validate_input.sh /tmp/tmp.Dmonj4sJly/tidak_ada
+ERROR: sumber tidak tersedia: /tmp/tmp.Dmonj4sJly/tidak_ada
+exit: 2
+
+== (-) sumber kosong, harapan exit 2
+$ scripts/validate_input.sh /tmp/tmp.Dmonj4sJly/kosong
+ERROR: sumber kosong: /tmp/tmp.Dmonj4sJly/kosong
+exit: 2
+
+== (-) tanpa parameter, harapan exit 2
+$ scripts/validate_input.sh 
+ERROR: parameter salah. Pemakaian: scripts/validate_input.sh <direktori_sumber>
+exit: 2
+

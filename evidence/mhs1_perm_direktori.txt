@@ -1,0 +1,12 @@
+== Mode 704: other hanya r (bisa lihat daftar, tidak bisa akses isi)
+drwx---r-- 2 adivamay adivamay 60 Nov 23 22:05 /tmp/demo_dir
+a.txt
+cat: /tmp/demo_dir/a.txt: Permission denied
+exit: 1
+
+== Mode 701: other hanya x (tidak bisa lihat daftar, tapi bisa akses nama yang diketahui)
+drwx-----x 2 adivamay adivamay 60 Nov 23 22:05 /tmp/demo_dir
+ls: cannot open directory '/tmp/demo_dir': Permission denied
+exit ls: 2
+isi
+exit cat: 0
