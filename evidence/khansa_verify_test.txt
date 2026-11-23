@@ -1,0 +1,20 @@
+======================================
+PENGUJIAN VERIFIKASI SHA-256 - KHANSA
+======================================
+
+== (+) Checksum cocok, harapan exit 0
+Archive: /tmp/tmp.zeT2Xh64Wq/archive.tar.gz
+Expected SHA-256: 77074c1a4b55609af00300cdeb82f40f9b17d6a7e94f29aa337938d3a3c5370b
+Actual SHA-256:   77074c1a4b55609af00300cdeb82f40f9b17d6a7e94f29aa337938d3a3c5370b
+SUCCESS: Archive integrity verified.
+RESULT: OK
+Exit: 0
+
+== (-) Checksum berbeda, harapan exit 4
+Archive: /tmp/tmp.zeT2Xh64Wq/archive.tar.gz
+Expected SHA-256: 77074c1a4b55609af00300cdeb82f40f9b17d6a7e94f29aa337938d3a3c5370b
+Actual SHA-256:   2f6c95e44a19f778bbf9d2a06fedb62b0a4c1b7ed3c5b37b431168e7c9d19b35
+RESULT: FAILED
+Exit: 4
+
+SEMUA PENGUJIAN BERHASIL
