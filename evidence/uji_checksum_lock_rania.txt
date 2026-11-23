@@ -1,0 +1,32 @@
+======================================
+BUKTI PENGUJIAN CHECKSUM DAN LOCK
+Nama: Rania Lionar
+Tanggal: 23 November 2026
+======================================
+
+[1] Pengujian checksum negatif
+
+Arsip dimodifikasi setelah checksum dibuat.
+
+Expected SHA-256:
+225ce761bc17c1104021bc6f65c93ea449100b5837f15ce10e319bbd44b6d8c9
+
+Actual SHA-256:
+ada203281625bf40567851b560d799e18b8032ed4f91cb4d76d95bf3f0df122a
+
+Hasil: RESULT FAILED
+Exit code: 4
+
+[2] Pengujian lock negatif
+
+Proses pertama memegang lock selama 5 detik.
+Proses backup kedua dijalankan saat lock masih aktif.
+
+Hasil:
+ERROR: Backup lain sedang berjalan
+Exit code backup kedua: 6
+
+KESIMPULAN:
+Sistem berhasil mendeteksi perubahan integritas arsip
+dan menolak proses backup yang berjalan bersamaan.
+======================================

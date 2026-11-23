@@ -1,0 +1,29 @@
+======================================
+BUKTI PENGUJIAN BACKUP - RANIA LIONAR
+Tanggal: 23 November 2026
+======================================
+
+Skenario positif:
+Direktori sumber: /tmp/rania_backup_test/source
+File sumber: contoh.txt
+
+Hasil:
+- Arsip .tar.gz berhasil dibuat.
+- Isi arsip: source/contoh.txt
+- Checksum SHA-256 berhasil dibuat.
+- Verifikasi menghasilkan RESULT: OK.
+- Exit code verifikasi: 0.
+- Laporan berhasil dibuat.
+- Status laporan: VALID.
+- Logging proses backup berhasil.
+
+Expected SHA-256:
+225ce761bc17c1104021bc6f65c93ea449100b5837f15ce10e319bbd44b6d8c9
+
+Actual SHA-256:
+225ce761bc17c1104021bc6f65c93ea449100b5837f15ce10e319bbd44b6d8c9
+
+KESIMPULAN:
+Pembuatan arsip, checksum, verifikasi, logging,
+dan laporan berhasil dijalankan.
+======================================
