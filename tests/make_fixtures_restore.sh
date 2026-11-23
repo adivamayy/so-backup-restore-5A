@@ -29,3 +29,10 @@ printf 'isi B\n' > "$SRC/sub/catatan.txt"
 : > "$SRC/kosong.txt"
 printf 'ünïcödé\n' > "$SRC/unicode_é.txt"
 info "data dummy dibuat: $(find "$SRC" -type f | wc -l) berkas"
+
+# --- Tahap B: arsip valid ------------------------------------------------
+cd "$FIX_DIR" || die "tidak bisa masuk $FIX_DIR"
+tar -czf valid.tar.gz -C sumber dokumen_uji || die "gagal membuat valid.tar.gz"
+sha256sum valid.tar.gz > valid.tar.gz.sha256 || die "gagal membuat checksum valid"
+cp valid.tar.gz tanpa_checksum.tar.gz || die "gagal menyalin tanpa_checksum"
+info "arsip valid dibuat ($(wc -c < valid.tar.gz) byte)"
