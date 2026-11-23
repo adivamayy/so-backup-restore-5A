@@ -1,0 +1,14 @@
+======================================
+BUKTI PENGUJIAN DOCKER READ-ONLY
+Nama: Rania Lionar
+======================================
+
+[1] Pengujian membaca file
+Pengujian Docker Read-Only - Rania Lionar
+
+[2] Pengujian menulis ke file readonly
+sh: can't create /data/laporan.txt: Read-only file system
+Exit code penulisan: 1
+Checksum sebelum: a540c7f6ac4d0cc2faff99e6ac614e81840b82692c4fde0735417540b7be50fb
+Checksum sesudah: a540c7f6ac4d0cc2faff99e6ac614e81840b82692c4fde0735417540b7be50fb
+Status integritas: TIDAK BERUBAH

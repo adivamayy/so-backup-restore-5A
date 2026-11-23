@@ -1,0 +1,14 @@
+======================================
+BUKTI PENGUJIAN FLOCK - RANIA
+======================================
+
+[1] Menjalankan proses backup pertama
+2026-11-23 21:02:40 [INFO] [pid 2924] Lock didapat
+2026-11-23 21:02:40 [INFO] [pid 2924] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+
+[2] Menjalankan proses backup kedua
+2026-11-23 21:02:41 [ERROR] [pid 2936] Backup lain sedang berjalan (lock: /tmp/backup-5A.lock)
+Exit code proses kedua: 6
+2026-11-23 21:02:45 [INFO] [pid 2924] Selesai (kerangka)
+
+Pengujian selesai.
