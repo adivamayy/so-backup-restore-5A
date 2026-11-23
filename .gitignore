@@ -12,3 +12,6 @@ id_*
 # Hasil runtime
 logs/*.log
 *.tar.gz
+
+# Hasil laporan runtime
+output/

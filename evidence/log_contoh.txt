@@ -1,0 +1,18 @@
+2026-11-23 20:42:59 [INFO] [pid 1196] Lock didapat
+2026-11-23 20:42:59 [INFO] [pid 1196] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+2026-11-23 20:43:00 [ERROR] [pid 1218] Backup lain sedang berjalan (lock: /tmp/backup-5A.lock)
+2026-11-23 20:43:09 [INFO] [pid 1196] Selesai (kerangka)
+2026-11-23 20:43:41 [INFO] [pid 1254] Lock didapat
+2026-11-23 20:43:41 [INFO] [pid 1254] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+2026-11-23 20:43:42 [ERROR] [pid 1267] Backup lain sedang berjalan (lock: /tmp/backup-5A.lock)
+2026-11-23 20:43:55 [INFO] [pid 1295] Lock didapat
+2026-11-23 20:43:55 [INFO] [pid 1295] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+2026-11-23 20:43:56 [ERROR] [pid 1307] Backup lain sedang berjalan (lock: /tmp/backup-5A.lock)
+2026-11-23 20:44:05 [INFO] [pid 1295] Selesai (kerangka)
+2026-11-23 20:45:01 [INFO] [pid 1336] Lock didapat
+2026-11-23 20:45:01 [INFO] [pid 1336] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+2026-11-23 20:45:02 [ERROR] [pid 1350] Backup lain sedang berjalan (lock: /tmp/backup-5A.lock)
+2026-11-23 20:45:11 [INFO] [pid 1336] Selesai (kerangka)
+2026-11-23 20:47:56 [INFO] [pid 1420] Lock didapat
+2026-11-23 20:47:56 [INFO] [pid 1420] Mulai backup /tmp/sumber_uji -> /tmp/tujuan_uji
+2026-11-23 20:47:56 [INFO] [pid 1420] Selesai (kerangka)
