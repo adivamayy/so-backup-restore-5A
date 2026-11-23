@@ -1,0 +1,4 @@
+uid=1002(penguji) gid=1002(penguji) groups=1002(penguji),100(users)
+drwx------ 2 adivamay adivamay 60 Nov 23 22:02 /tmp/uji_tertutup
+ERROR: sumber tidak dapat dibaca (permission): /tmp/uji_tertutup
+exit: 2
