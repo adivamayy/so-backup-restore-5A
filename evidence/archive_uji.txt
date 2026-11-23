@@ -1,0 +1,13 @@
+$ ./scripts/archive.sh /tmp/sumber_uji /tmp/tujuan_uji
+2026-11-23 23:03:13 [archive] OK: arsip=/tmp/tujuan_uji/backup_20261123_230313.tar.gz checksum=/tmp/tujuan_uji/backup_20261123_230313.tar.gz.sha256
+/tmp/tujuan_uji/backup_20261123_230313.tar.gz
+exit: 0
+
+$ ./scripts/archive.sh /tmp/tidak_ada /tmp/tujuan_uji
+2026-11-23 23:03:13 [archive] GAGAL: sumber tidak tersedia/tidak terbaca: /tmp/tidak_ada
+exit: 2
+
+$ ./scripts/archive.sh /tmp/sumber_uji /tmp/tidak_ada
+2026-11-23 23:03:14 [archive] GAGAL: tujuan tidak dapat ditulis: /tmp/tidak_ada
+exit: 3
+
