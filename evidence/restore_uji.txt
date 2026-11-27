@@ -1,0 +1,12 @@
+LULUS  TC-R1 (exit 0)
+LULUS  TC-R1 isi hasil restore identik dengan sumber (diff -r)
+LULUS  TC-R2 (exit 5)
+LULUS  TC-R2 tujuan bersih (tidak ada hasil palsu/sisa)
+LULUS  TC-R3 (exit 5)
+LULUS  TC-R3 tujuan bersih (tidak ada hasil palsu/sisa)
+LULUS  TC-R4 (exit 5)
+LULUS  TC-R4 tujuan bersih (tidak ada hasil palsu/sisa)
+LULUS  TC-R5a (exit 2)
+LULUS  TC-R5b (exit 2)
+LULUS  TC-R6 (exit 3)
+---- ringkasan: 11 lulus, 0 gagal, 0 dilewati
